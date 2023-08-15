@@ -28,6 +28,7 @@ public class MultiplicationTable {
     }
 
     public String generateSingleExpression(int multiplicand, int multiplier) {
-        return null;
+        int result = multiplicand * multiplier;
+        return multiplicand +"*" + multiplier +"=" + result;
     }
 }
